@@ -1,0 +1,12 @@
+[package]
+name = "jason-webrtc"
+version = "0.1.0"
+edition = "2018"
+
+[workspace]
+members = [
+    "libwebrtc-sys"
+]
+
+[dependencies]
+libwebrtc-sys = { path = "libwebrtc-sys" }

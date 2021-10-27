@@ -1,0 +1,29 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-FoC:\\Users\\User\\Desktop\\libwebrtc-simpified-test\\target\\debug\\build\\link-cplusplus-507e61adef439388\\out\\dummy.o" "-c" "C:\\Users\\User\\Desktop\\libwebrtc-simpified-test\\target\\debug\\build\\link-cplusplus-507e61adef439388\\out\\dummy.cc"
+dummy.cc
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\User\\Desktop\\libwebrtc-simpified-test\\target\\debug\\build\\link-cplusplus-507e61adef439388\\out\\liblink-cplusplus.a" "-nologo" "C:\\Users\\User\\Desktop\\libwebrtc-simpified-test\\target\\debug\\build\\link-cplusplus-507e61adef439388\\out\\dummy.o"
+exit code: 0
+cargo:rustc-link-lib=static=link-cplusplus
+cargo:rustc-link-search=native=C:\Users\User\Desktop\libwebrtc-simpified-test\target\debug\build\link-cplusplus-507e61adef439388\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
